@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+body{
+    margin: 0;
+    height: 100vh;
+    background-image: linear-gradient(to right,#439CFB,#F187FB);
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.card{
+    margin-top: 200px;
+    background-color: rgba(227, 225, 225,0.12);
+    height: 600px;
+    width: 500px;
+    border-radius: 10px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+.header img{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 100px;
+}
+.header h3{
+    margin-top: 5px;
+    font-size: 35px;
+    color: white;
+}
+.header span{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+/* details */
+.details{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 80px;
+}
+.details .foll{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.details .foll h4{
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+.details .foll span{
+    color: white;
+    font: 600;
+}
+.details .post{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.details .post h4{
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+.details .post span{
+    color: white;
+    font: 600;
+}
+.details .videos{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.details .videos h4{
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+.details .videos span{
+    color: white;
+    font: 600;
+}
+/* social icons */
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.social img{
+    margin: 10px;
+   width: 40px;
+   border: 1px solid transparent;
+   cursor: pointer;
+}
+.social img:hover{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: white;
+    transition: 0.2s;
+}
+/* buttons */
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 60px;
+}
+.btn1 button{
+    background-color: transparent;
+    border: 1px solid #439CFB;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    transition: 0.2s ease-in;
+}
+.btn1 button:hover{
+    background-color: #439CFB;
+}
+.bnt2 button{
+    background-color: transparent;
+    border: 1px solid #F187FB;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    transition: 0.2s ease-in;
+}
+.bnt2 button:hover{
+    background-color: #F187FB;
+}
