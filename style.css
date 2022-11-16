@@ -21,7 +21,8 @@ body{
     background-color: rgba(227, 225, 225,0.12);
     height: 600px;
     width: 500px;
-    border-radius: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(49, 49, 49, 0.363);
 }
 .header{
     display: flex;
@@ -130,7 +131,7 @@ body{
 }
 .btn1 button{
     background-color: transparent;
-    border: 1px solid #439CFB;
+    border: 2px solid #439CFB;
     padding: 10px;
     border-radius: 10px;
     color: white;
@@ -141,7 +142,7 @@ body{
 }
 .bnt2 button{
     background-color: transparent;
-    border: 1px solid #F187FB;
+    border: 2px solid #F187FB;
     padding: 10px;
     border-radius: 10px;
     color: white;
